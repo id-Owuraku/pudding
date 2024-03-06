@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 750px;
+    grid-template-rows: auto auto;
+    height: 100vh;
+    background-color: azure;
+    margin: auto;
+}
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.info {
+    grid-row-start: 2;
+    grid-row-end: auto;
+    margin: auto;
+    font-size: larger;
+
+}
+
+.info>h1 {
+    font-size: 75px;
+}
+
+.info>p{
+    color: gray;
+}
+
+.sponsors {
+    
+}
+
+.hero {
+    grid-row-start: 2;
+    grid-row-end: auto;
+    grid-column-start: 2;
+    grid-column-end: auto;
+    margin: auto;
+}
+
+.hero>img {
+    height: 750px;
+    width: auto;
+}
+
